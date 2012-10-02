@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0FB6321619FBE300013BCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6311619FBE300013BCF /* UIKit.framework */; };
+		CE0FB6341619FBE300013BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6331619FBE300013BCF /* Foundation.framework */; };
+		CE0FB6361619FBE300013BCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6351619FBE300013BCF /* CoreGraphics.framework */; };
+		CE0FB63C1619FBE300013BCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB63A1619FBE300013BCF /* InfoPlist.strings */; };
+		CE0FB63E1619FBE300013BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0FB63D1619FBE300013BCF /* main.m */; };
+		CE0FB6421619FBE300013BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0FB6411619FBE300013BCF /* AppDelegate.m */; };
+		CE0FB6441619FBE300013BCF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB6431619FBE300013BCF /* Default.png */; };
+		CE0FB6461619FBE300013BCF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB6451619FBE300013BCF /* Default@2x.png */; };
+		CE0FB6481619FBE300013BCF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB6471619FBE300013BCF /* Default-568h@2x.png */; };
+		CE0FB64B1619FBE300013BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0FB64A1619FBE300013BCF /* ViewController.m */; };
+		CE0FB64E1619FBE300013BCF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB64C1619FBE300013BCF /* ViewController.xib */; };
+		CE0FB6551619FC9100013BCF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6541619FC9100013BCF /* AVFoundation.framework */; };
+		CE0FB658161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB656161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png */; };
+		CE0FB659161A102E00013BCF /* power_button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB657161A102E00013BCF /* power_button_black.png */; };
+		CE783C1F161A75A0002FC336 /* icon_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = CE783C1E161A75A0002FC336 /* icon_pro.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE0FB62D1619FBE300013BCF /* LED_Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LED_Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0FB6311619FBE300013BCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE0FB6331619FBE300013BCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE0FB6351619FBE300013BCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE0FB6391619FBE300013BCF /* LED_Flashlight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LED_Flashlight-Info.plist"; sourceTree = "<group>"; };
+		CE0FB63B1619FBE300013BCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE0FB63D1619FBE300013BCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE0FB63F1619FBE300013BCF /* LED_Flashlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LED_Flashlight-Prefix.pch"; sourceTree = "<group>"; };
+		CE0FB6401619FBE300013BCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE0FB6411619FBE300013BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE0FB6431619FBE300013BCF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE0FB6451619FBE300013BCF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE0FB6471619FBE300013BCF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE0FB6491619FBE300013BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE0FB64A1619FBE300013BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE0FB64D1619FBE300013BCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE0FB6541619FC9100013BCF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CE0FB656161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11954285511639254892power_button_raoul_rene__01.svg.med.png; sourceTree = "<group>"; };
+		CE0FB657161A102E00013BCF /* power_button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_button_black.png; sourceTree = "<group>"; };
+		CE783C1E161A75A0002FC336 /* icon_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pro.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE0FB62A1619FBE300013BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0FB6551619FC9100013BCF /* AVFoundation.framework in Frameworks */,
+				CE0FB6321619FBE300013BCF /* UIKit.framework in Frameworks */,
+				CE0FB6341619FBE300013BCF /* Foundation.framework in Frameworks */,
+				CE0FB6361619FBE300013BCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE0FB6221619FBE300013BCF = {
+			isa = PBXGroup;
+			children = (
+				CE783C1E161A75A0002FC336 /* icon_pro.png */,
+				CE0FB6371619FBE300013BCF /* LED_Flashlight */,
+				CE0FB6301619FBE300013BCF /* Frameworks */,
+				CE0FB62E1619FBE300013BCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE0FB62E1619FBE300013BCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FB62D1619FBE300013BCF /* LED_Flashlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE0FB6301619FBE300013BCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FB6541619FC9100013BCF /* AVFoundation.framework */,
+				CE0FB6311619FBE300013BCF /* UIKit.framework */,
+				CE0FB6331619FBE300013BCF /* Foundation.framework */,
+				CE0FB6351619FBE300013BCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE0FB6371619FBE300013BCF /* LED_Flashlight */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FB6401619FBE300013BCF /* AppDelegate.h */,
+				CE0FB6411619FBE300013BCF /* AppDelegate.m */,
+				CE0FB6491619FBE300013BCF /* ViewController.h */,
+				CE0FB64A1619FBE300013BCF /* ViewController.m */,
+				CE0FB64C1619FBE300013BCF /* ViewController.xib */,
+				CE0FB6381619FBE300013BCF /* Supporting Files */,
+			);
+			path = LED_Flashlight;
+			sourceTree = "<group>";
+		};
+		CE0FB6381619FBE300013BCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FB656161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png */,
+				CE0FB657161A102E00013BCF /* power_button_black.png */,
+				CE0FB6391619FBE300013BCF /* LED_Flashlight-Info.plist */,
+				CE0FB63A1619FBE300013BCF /* InfoPlist.strings */,
+				CE0FB63D1619FBE300013BCF /* main.m */,
+				CE0FB63F1619FBE300013BCF /* LED_Flashlight-Prefix.pch */,
+				CE0FB6431619FBE300013BCF /* Default.png */,
+				CE0FB6451619FBE300013BCF /* Default@2x.png */,
+				CE0FB6471619FBE300013BCF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE0FB62C1619FBE300013BCF /* LED_Flashlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0FB6511619FBE400013BCF /* Build configuration list for PBXNativeTarget "LED_Flashlight" */;
+			buildPhases = (
+				CE0FB6291619FBE300013BCF /* Sources */,
+				CE0FB62A1619FBE300013BCF /* Frameworks */,
+				CE0FB62B1619FBE300013BCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LED_Flashlight;
+			productName = LED_Flashlight;
+			productReference = CE0FB62D1619FBE300013BCF /* LED_Flashlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE0FB6241619FBE300013BCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = User;
+			};
+			buildConfigurationList = CE0FB6271619FBE300013BCF /* Build configuration list for PBXProject "LED_Flashlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE0FB6221619FBE300013BCF;
+			productRefGroup = CE0FB62E1619FBE300013BCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE0FB62C1619FBE300013BCF /* LED_Flashlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE0FB62B1619FBE300013BCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0FB63C1619FBE300013BCF /* InfoPlist.strings in Resources */,
+				CE0FB6441619FBE300013BCF /* Default.png in Resources */,
+				CE0FB6461619FBE300013BCF /* Default@2x.png in Resources */,
+				CE0FB6481619FBE300013BCF /* Default-568h@2x.png in Resources */,
+				CE0FB64E1619FBE300013BCF /* ViewController.xib in Resources */,
+				CE0FB658161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png in Resources */,
+				CE0FB659161A102E00013BCF /* power_button_black.png in Resources */,
+				CE783C1F161A75A0002FC336 /* icon_pro.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE0FB6291619FBE300013BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0FB63E1619FBE300013BCF /* main.m in Sources */,
+				CE0FB6421619FBE300013BCF /* AppDelegate.m in Sources */,
+				CE0FB64B1619FBE300013BCF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE0FB63A1619FBE300013BCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0FB63B1619FBE300013BCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE0FB64C1619FBE300013BCF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0FB64D1619FBE300013BCF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE0FB64F1619FBE300013BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE0FB6501619FBE300013BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE0FB6521619FBE400013BCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LED_Flashlight/LED_Flashlight-Prefix.pch";
+				INFOPLIST_FILE = "LED_Flashlight/LED_Flashlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE0FB6531619FBE400013BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LED_Flashlight/LED_Flashlight-Prefix.pch";
+				INFOPLIST_FILE = "LED_Flashlight/LED_Flashlight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE0FB6271619FBE300013BCF /* Build configuration list for PBXProject "LED_Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0FB64F1619FBE300013BCF /* Debug */,
+				CE0FB6501619FBE300013BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0FB6511619FBE400013BCF /* Build configuration list for PBXNativeTarget "LED_Flashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0FB6521619FBE400013BCF /* Debug */,
+				CE0FB6531619FBE400013BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE0FB6241619FBE300013BCF /* Project object */;
+}
