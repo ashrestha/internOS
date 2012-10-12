@@ -11,12 +11,18 @@
 
 @interface ViewController : UIViewController
 {
+    //flashlight app
     UIButton *onButton;
     UIButton *offButton;
     UIImageView *onView;
     UIImageView *offView;
+    
+    //clock app
+    IBOutlet UILabel * label;
+    NSTimer * timer;
 }
 
+//flashlight
 @property(nonatomic, strong) IBOutlet UIButton *onButton;
 @property(nonatomic, strong) IBOutlet UIButton *offButton;
 @property(nonatomic, strong) IBOutlet UIImageView *onView;
@@ -25,4 +31,6 @@
 -(IBAction)torchOn:(id)sender;
 -(IBAction)torchOff:(id)sender;
 
+//clock
+-(void)updateTimer;
 @end

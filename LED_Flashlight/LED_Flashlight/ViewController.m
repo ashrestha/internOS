@@ -13,6 +13,13 @@
 @end
 
 @implementation ViewController
+
+-(void)updateTimer{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc]init];
+    [formatter setDateFormat:@"hh:mm:ss a"];
+    label.text = [formatter stringFromDate:[NSDate date]];
+}
+
 @synthesize offButton, onView, onButton, offView;
 
 -(IBAction)torchOn:(id)sender
@@ -73,6 +80,8 @@
         }
     }
     [super viewDidLoad];
+    
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(updateTimer) userInfo:nil repeats:YES];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -81,5 +90,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
+}
+
 
 @end
