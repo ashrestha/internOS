@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FF880CD163368ED0022F9D6 /* Green Power button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880CB163368ED0022F9D6 /* Green Power button.jpg */; };
+		7FF880CE163368ED0022F9D6 /* Red power button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880CC163368ED0022F9D6 /* Red power button.png */; };
+		7FF880D116336A100022F9D6 /* Background copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880D016336A100022F9D6 /* Background copy.jpg */; };
 		CE0FB6321619FBE300013BCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6311619FBE300013BCF /* UIKit.framework */; };
 		CE0FB6341619FBE300013BCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6331619FBE300013BCF /* Foundation.framework */; };
 		CE0FB6361619FBE300013BCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6351619FBE300013BCF /* CoreGraphics.framework */; };
@@ -19,12 +22,13 @@
 		CE0FB64B1619FBE300013BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0FB64A1619FBE300013BCF /* ViewController.m */; };
 		CE0FB64E1619FBE300013BCF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB64C1619FBE300013BCF /* ViewController.xib */; };
 		CE0FB6551619FC9100013BCF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6541619FC9100013BCF /* AVFoundation.framework */; };
-		CE0FB658161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB656161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png */; };
-		CE0FB659161A102E00013BCF /* power_button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0FB657161A102E00013BCF /* power_button_black.png */; };
 		CE783C1F161A75A0002FC336 /* icon_pro.png in Resources */ = {isa = PBXBuildFile; fileRef = CE783C1E161A75A0002FC336 /* icon_pro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FF880CB163368ED0022F9D6 /* Green Power button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Power button.jpg"; sourceTree = "<group>"; };
+		7FF880CC163368ED0022F9D6 /* Red power button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red power button.png"; sourceTree = "<group>"; };
+		7FF880D016336A100022F9D6 /* Background copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Background copy.jpg"; sourceTree = "<group>"; };
 		CE0FB62D1619FBE300013BCF /* LED_Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LED_Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0FB6311619FBE300013BCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE0FB6331619FBE300013BCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,8 +46,6 @@
 		CE0FB64A1619FBE300013BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE0FB64D1619FBE300013BCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		CE0FB6541619FC9100013BCF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		CE0FB656161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11954285511639254892power_button_raoul_rene__01.svg.med.png; sourceTree = "<group>"; };
-		CE0FB657161A102E00013BCF /* power_button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power_button_black.png; sourceTree = "<group>"; };
 		CE783C1E161A75A0002FC336 /* icon_pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,9 +109,10 @@
 		CE0FB6381619FBE300013BCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE0FB656161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png */,
-				CE0FB657161A102E00013BCF /* power_button_black.png */,
+				7FF880CB163368ED0022F9D6 /* Green Power button.jpg */,
+				7FF880CC163368ED0022F9D6 /* Red power button.png */,
 				CE0FB6391619FBE300013BCF /* LED_Flashlight-Info.plist */,
+				7FF880D016336A100022F9D6 /* Background copy.jpg */,
 				CE0FB63A1619FBE300013BCF /* InfoPlist.strings */,
 				CE0FB63D1619FBE300013BCF /* main.m */,
 				CE0FB63F1619FBE300013BCF /* LED_Flashlight-Prefix.pch */,
@@ -176,9 +179,10 @@
 				CE0FB6461619FBE300013BCF /* Default@2x.png in Resources */,
 				CE0FB6481619FBE300013BCF /* Default-568h@2x.png in Resources */,
 				CE0FB64E1619FBE300013BCF /* ViewController.xib in Resources */,
-				CE0FB658161A102E00013BCF /* 11954285511639254892power_button_raoul_rene__01.svg.med.png in Resources */,
-				CE0FB659161A102E00013BCF /* power_button_black.png in Resources */,
 				CE783C1F161A75A0002FC336 /* icon_pro.png in Resources */,
+				7FF880CD163368ED0022F9D6 /* Green Power button.jpg in Resources */,
+				7FF880CE163368ED0022F9D6 /* Red power button.png in Resources */,
+				7FF880D116336A100022F9D6 /* Background copy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
