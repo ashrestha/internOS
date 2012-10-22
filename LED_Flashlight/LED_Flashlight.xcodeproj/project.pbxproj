@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FF880CD163368ED0022F9D6 /* Green Power button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880CB163368ED0022F9D6 /* Green Power button.jpg */; };
+		7F1760711635BD0100BDCBD2 /* Green power button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1760701635BD0100BDCBD2 /* Green power button.png */; };
 		7FF880CE163368ED0022F9D6 /* Red power button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880CC163368ED0022F9D6 /* Red power button.png */; };
 		7FF880D116336A100022F9D6 /* Background copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880D016336A100022F9D6 /* Background copy.jpg */; };
 		CE0FB6321619FBE300013BCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6311619FBE300013BCF /* UIKit.framework */; };
@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7FF880CB163368ED0022F9D6 /* Green Power button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Power button.jpg"; sourceTree = "<group>"; };
+		7F1760701635BD0100BDCBD2 /* Green power button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green power button.png"; sourceTree = "<group>"; };
 		7FF880CC163368ED0022F9D6 /* Red power button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red power button.png"; sourceTree = "<group>"; };
 		7FF880D016336A100022F9D6 /* Background copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Background copy.jpg"; sourceTree = "<group>"; };
 		CE0FB62D1619FBE300013BCF /* LED_Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LED_Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,8 +109,8 @@
 		CE0FB6381619FBE300013BCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7FF880CB163368ED0022F9D6 /* Green Power button.jpg */,
 				7FF880CC163368ED0022F9D6 /* Red power button.png */,
+				7F1760701635BD0100BDCBD2 /* Green power button.png */,
 				CE0FB6391619FBE300013BCF /* LED_Flashlight-Info.plist */,
 				7FF880D016336A100022F9D6 /* Background copy.jpg */,
 				CE0FB63A1619FBE300013BCF /* InfoPlist.strings */,
@@ -180,9 +180,9 @@
 				CE0FB6481619FBE300013BCF /* Default-568h@2x.png in Resources */,
 				CE0FB64E1619FBE300013BCF /* ViewController.xib in Resources */,
 				CE783C1F161A75A0002FC336 /* icon_pro.png in Resources */,
-				7FF880CD163368ED0022F9D6 /* Green Power button.jpg in Resources */,
 				7FF880CE163368ED0022F9D6 /* Red power button.png in Resources */,
 				7FF880D116336A100022F9D6 /* Background copy.jpg in Resources */,
+				7F1760711635BD0100BDCBD2 /* Green power button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
