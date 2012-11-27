@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7F1760711635BD0100BDCBD2 /* Green power button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1760701635BD0100BDCBD2 /* Green power button.png */; };
-		7FCF0995163DE705008212A4 /* Let's go Digital Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FCF0994163DE705008212A4 /* Let's go Digital Regular.ttf */; };
-		7FD8E0EF163CCF8B00BE76FE /* DS Digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD8E0EE163CCF8B00BE76FE /* DS Digital.ttf */; };
 		7FF880CE163368ED0022F9D6 /* Red power button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880CC163368ED0022F9D6 /* Red power button.png */; };
 		7FF880D116336A100022F9D6 /* Background copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FF880D016336A100022F9D6 /* Background copy.jpg */; };
 		CE0FB6321619FBE300013BCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0FB6311619FBE300013BCF /* UIKit.framework */; };
@@ -29,8 +27,6 @@
 
 /* Begin PBXFileReference section */
 		7F1760701635BD0100BDCBD2 /* Green power button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green power button.png"; sourceTree = "<group>"; };
-		7FCF0994163DE705008212A4 /* Let's go Digital Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's go Digital Regular.ttf"; sourceTree = "<group>"; };
-		7FD8E0EE163CCF8B00BE76FE /* DS Digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DS Digital.ttf"; path = "LED_Flashlight/DS Digital.ttf"; sourceTree = "<group>"; };
 		7FF880CC163368ED0022F9D6 /* Red power button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red power button.png"; sourceTree = "<group>"; };
 		7FF880D016336A100022F9D6 /* Background copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Background copy.jpg"; sourceTree = "<group>"; };
 		CE0FB62D1619FBE300013BCF /* LED_Flashlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LED_Flashlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,8 +67,6 @@
 		CE0FB6221619FBE300013BCF = {
 			isa = PBXGroup;
 			children = (
-				7FD8E0EE163CCF8B00BE76FE /* DS Digital.ttf */,
-				7FCF0994163DE705008212A4 /* Let's go Digital Regular.ttf */,
 				CE783C1E161A75A0002FC336 /* icon_pro.png */,
 				CE0FB6371619FBE300013BCF /* LED_Flashlight */,
 				CE0FB6301619FBE300013BCF /* Frameworks */,
@@ -189,8 +183,6 @@
 				7FF880CE163368ED0022F9D6 /* Red power button.png in Resources */,
 				7FF880D116336A100022F9D6 /* Background copy.jpg in Resources */,
 				7F1760711635BD0100BDCBD2 /* Green power button.png in Resources */,
-				7FD8E0EF163CCF8B00BE76FE /* DS Digital.ttf in Resources */,
-				7FCF0995163DE705008212A4 /* Let's go Digital Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,17 +20,6 @@
     //clock app
     IBOutlet UILabel * label;
     NSTimer * timer;
-    
-    //screen brightness
-    UILabel * brightLabel;
-    
-    //LED brightness
-    UILabel * ledbrightnessLabel;
-    
-    //slider for LED Intensity
-   // UISlider * changeLEDBrightnessSlider;
-    
-    
 }
 
 //flashlight
@@ -38,16 +27,9 @@
 @property(nonatomic, strong) IBOutlet UIButton *offButton;
 @property(nonatomic, strong) IBOutlet UIImageView *onView;
 @property(nonatomic, strong) IBOutlet UIImageView *offView;
-@property(nonatomic, retain) IBOutlet UILabel *label;
-@property(nonatomic, retain) IBOutlet UILabel *brightLabel;
-@property(nonatomic, retain) IBOutlet UILabel *ledbrightnessLabel;
-//@property(nonatomic, retain) IBOutlet UISlider *changeLEDBrightnessSlider;
 
--(IBAction)changeScreenBrightness:(UISlider *)sender; //Screen brightness
--(IBAction)changeLEDBrightness:(UISlider *)sender; //LED brightness
 -(IBAction)torchOn:(id)sender;
 -(IBAction)torchOff:(id)sender;
-
 
 //clock
 -(void)updateTimer;
